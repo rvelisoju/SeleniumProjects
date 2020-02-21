@@ -57,7 +57,8 @@ public class LoginStepDefinitions {
 			 
 		String str =	 driver.findElement(By.xpath("/html/body/table/tbody/tr/td[1]/big/blockquote/blockquote/font/center/b")).getText();
 		
-		Assert.assertEquals("**Failed Login**", str);
+		//**Successful Login**  //**Failed Login**
+		Assert.assertEquals("**Successful Login**", str);
 
 		 }
 

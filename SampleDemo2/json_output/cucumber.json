@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#without Examples Keyword"
+          }
+        ],
+        "line": 5,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6857324500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinitions.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12964800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinitions.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 225436400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginStepDefinitions.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 176451600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinitions.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37740700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user checks for success message",
+            "match": {
+              "location": "LoginStepDefinitions.user_checks_for_success_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 831751400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefinitions.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/rvelisoju/git/SeleniumProjects/SampleDemo1/FeatureFiles/Features/demo.feature"
+  }
+]

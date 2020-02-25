@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/rvelisoju/git/SeleniumProjects/SampleDemo1/FeatureFiles/Features/demo.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/rvelisoju/git/SeleniumProjects/SampleDemo2/FeatureFiles/Features/demo.feature");
 formatter.feature({
   "line": 1,
   "name": "Free CRM Login Feature",
@@ -10,7 +10,7 @@ formatter.scenario({
   "comments": [
     {
       "line": 4,
-      "value": "#without Examples Keyword"
+      "value": "#without Examples Keyword heloo wvrb"
     }
   ],
   "line": 5,
@@ -54,42 +54,42 @@ formatter.match({
   "location": "LoginStepDefinitions.user_already_on_login_page()"
 });
 formatter.result({
-  "duration": 6857324500,
+  "duration": 7204576900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinitions.title_of_login_page_is_Free_CRM()"
 });
 formatter.result({
-  "duration": 12964800,
+  "duration": 23460000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinitions.user_enters_username_and_password()"
 });
 formatter.result({
-  "duration": 225436400,
+  "duration": 238735300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinitions.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 176451600,
+  "duration": 139093601,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinitions.user_checks_for_success_message()"
 });
 formatter.result({
-  "duration": 37740700,
+  "duration": 37617399,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinitions.close_the_browser()"
 });
 formatter.result({
-  "duration": 831751400,
+  "duration": 892053600,
   "status": "passed"
 });
 });
